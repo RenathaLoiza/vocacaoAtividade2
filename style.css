@@ -1,3 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 body{
     background-color: lightblue;
+    font-size: 16px;
+}
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: 14px;
+    }
+}
+
+.imagens  {
+  align-items: center;
+  text-align: center;
+ 
+
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+form{
+    background-color: #009999;
+    padding: 2em;
+    border-radius: 1em;
+    
+
+}
+
+
+.primeiroNome input,
+.sobrenome input {
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 0.5em;
+
+}
+
+.primeiroNome {
+    margin-right: 1em;
+   
+}
+
+.Email input,
+.senha input {
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 0.5em;
+    
+}
+.Email{
+    margin-right: 1em;
+    
+}
+
+
+
+.selecao {
+    margin-right: 1em;
+    border: 1px solid rgb(170, 206, 204);
+    border-radius: 16em;
+    padding: 0.5em;
+    
+
+}
+button {
+    width: 100%;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: #0a6d6d;
+    color: white;
+    border: none;
+}
+
+footer{
+    text-align: center;
 }
