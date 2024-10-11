@@ -1,3 +1,3 @@
 function mudar(){
-document.getElementById("p1").innerHTML="Bem Vindo";
+document.getElementById("p1").innerHTML=" Bem Vindo! ";
 }
